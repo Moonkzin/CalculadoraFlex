@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
-import br.com.lucas.calculadoraflex.R
+import br.com.lucas.calculadoraflex.
 import br.com.lucas.calculadoraflex.model.CarData
 import br.com.lucas.calculadoraflex.ui.login.LoginActivity
 import br.com.lucas.calculadoraflex.ui.result.ResultActivity
