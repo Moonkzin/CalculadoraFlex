@@ -1,16 +1,16 @@
-package br.com.lucasg.calculadoraflex.ui.form
+package br.com.lucas.calculadoraflex.ui.form
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
-import br.com.lucasg.calculadoraflex.R
-import br.com.lucasg.calculadoraflex.model.CarData
-import br.com.lucasg.calculadoraflex.ui.login.LoginActivity
-import br.com.lucasg.calculadoraflex.ui.result.ResultActivity
-import br.com.lucasg.calculadoraflex.ui.watchers.DecimalTextWatcher
-import br.com.lucasg.calculadoraflex.utils.DatabaseUtil
+import br.com.lucas.calculadoraflex.R
+import br.com.lucas.calculadoraflex.model.CarData
+import br.com.lucas.calculadoraflex.ui.login.LoginActivity
+import br.com.lucas.calculadoraflex.ui.result.ResultActivity
+import br.com.lucas.calculadoraflex.ui.watchers.DecimalTextWatcher
+import br.com.lucas.calculadoraflex.utils.DatabaseUtil
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
@@ -31,10 +31,28 @@ class FormActivity : AppCompatActivity() {
         userId = FirebaseAuth.getInstance().currentUser?.uid ?: ""
         listenerFirebaseRealtime()
 
-        etGasPrice.addTextChangedListener(DecimalTextWatcher(etGasPrice))
-        etEthanolPrice.addTextChangedListener(DecimalTextWatcher(etEthanolPrice))
-        etGasAverage.addTextChangedListener(DecimalTextWatcher(etGasAverage, 1))
-        etEthanolAverage.addTextChangedListener(DecimalTextWatcher(etEthanolAverage, 1))
+        etGasPrice.addTextChangedListener(
+            DecimalTextWatcher(
+                etGasPrice
+            )
+        )
+        etEthanolPrice.addTextChangedListener(
+            DecimalTextWatcher(
+                etEthanolPrice
+            )
+        )
+        etGasAverage.addTextChangedListener(
+            DecimalTextWatcher(
+                etGasAverage,
+                1
+            )
+        )
+        etEthanolAverage.addTextChangedListener(
+            DecimalTextWatcher(
+                etEthanolAverage,
+                1
+            )
+        )
         btCalculate.setOnClickListener {
 
             saveCarData()

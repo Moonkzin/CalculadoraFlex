@@ -1,4 +1,4 @@
-package br.com.lucasg.calculadoraflex.ui.splash
+package br.com.lucas.calculadoraflex.ui.splash
 
 import android.content.Context
 import android.content.Intent
@@ -9,10 +9,10 @@ import android.os.Bundle
 import android.os.Handler
 import android.view.animation.AnimationUtils
 import androidx.appcompat.app.AlertDialog
-import br.com.lucasg.calculadoraflex.BuildConfig
-import br.com.lucasg.calculadoraflex.R
-import br.com.lucasg.calculadoraflex.ui.login.LoginActivity
-import br.com.lucasg.calculadoraflex.utils.RemoteConfig
+import br.com.lucas.calculadoraflex.BuildConfig
+import br.com.lucas.calculadoraflex.R
+import br.com.lucas.calculadoraflex.ui.login.LoginActivity
+import br.com.lucas.calculadoraflex.utils.RemoteConfig
 import kotlinx.android.synthetic.main.activity_splash.*
 
 class SplashActivity : AppCompatActivity() {

@@ -1,4 +1,4 @@
-package br.com.lucasg.calculadoraflex
+package br.com.lucas.calculadoraflex
 
 import com.facebook.stetho.Stetho
 import android.app.Application

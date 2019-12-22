@@ -1,7 +1,7 @@
-package br.com.lucasg.calculadoraflex.utils
+package br.com.lucas.calculadoraflex.utils
 
-import br.com.lucasg.calculadoraflex.BuildConfig
-import br.com.lucasg.calculadoraflex.R
+import br.com.lucas.calculadoraflex.BuildConfig
+import br.com.lucas.calculadoraflex.R
 import com.google.android.gms.tasks.Task
 import com.google.firebase.remoteconfig.FirebaseRemoteConfig
 import com.google.firebase.remoteconfig.FirebaseRemoteConfigSettings

@@ -1,4 +1,4 @@
-package br.com.lucasg.calculadoraflex.utils
+package br.com.lucas.calculadoraflex.utils
 
 import com.google.firebase.database.FirebaseDatabase
 

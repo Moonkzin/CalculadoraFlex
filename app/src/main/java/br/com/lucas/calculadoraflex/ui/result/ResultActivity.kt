@@ -1,10 +1,10 @@
-package br.com.lucasg.calculadoraflex.ui.result
+package br.com.lucas.calculadoraflex.ui.result
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import br.com.lucasg.calculadoraflex.R
-import br.com.lucasg.calculadoraflex.extensions.format
+import br.com.lucas.calculadoraflex.extensions.format
 import kotlinx.android.synthetic.main.activity_result.*
 
 class ResultActivity : AppCompatActivity() {

@@ -1,4 +1,4 @@
-package br.com.lucasg.calculadoraflex.model
+package br.com.lucas.calculadoraflex.model
 
 data class User (
     val nome: String = "",

@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:58825393003:android:0d6987bf922d272145422e",
         "android_client_info": {
-          "package_name": "br.com.lucasg.calculadoraflex"
+          "package_name": "br.com.lucas.calculadoraflex"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "58825393003-rbdg8tdigegok59ee2apn6slsl3d4g5t.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "br.com.lucasg.calculadoraflex",
+            "package_name": "br.com.lucas.calculadoraflex",
             "certificate_hash": "80d7aba3af0f29d89e62871ba62e18dd32e7bd9f"
           }
         },
