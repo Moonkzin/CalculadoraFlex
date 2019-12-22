@@ -1,42 +1,42 @@
 {
   "project_info": {
-    "project_number": "566142913429",
-    "firebase_url": "https://calculadoraflex-lucasfiap.firebaseio.com",
-    "project_id": "calculadoraflex-lucasfiap",
-    "storage_bucket": "calculadoraflex-lucasfiap.appspot.com"
+    "project_number": "58825393003",
+    "firebase_url": "https://calculadoraflex-bebbc.firebaseio.com",
+    "project_id": "calculadoraflex-bebbc",
+    "storage_bucket": "calculadoraflex-bebbc.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:566142913429:android:b945419d7da3006c2a849c",
+        "mobilesdk_app_id": "1:58825393003:android:0d6987bf922d272145422e",
         "android_client_info": {
-          "package_name": "br.com.lucasfiap.calculadoraflex"
+          "package_name": "br.com.lucasg.calculadoraflex"
         }
       },
       "oauth_client": [
         {
-          "client_id": "566142913429-ncgcsgck42sontvp9le0lg61jn1kc1aq.apps.googleusercontent.com",
+          "client_id": "58825393003-rbdg8tdigegok59ee2apn6slsl3d4g5t.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "br.com.lucasfiap.calculadoraflex",
+            "package_name": "br.com.lucasg.calculadoraflex",
             "certificate_hash": "80d7aba3af0f29d89e62871ba62e18dd32e7bd9f"
           }
         },
         {
-          "client_id": "566142913429-3tvmrrouj0uf6vha8h5soo8p0hh25qc9.apps.googleusercontent.com",
+          "client_id": "58825393003-3st8hf7ccunurmsjbi3k95v85u0i4ob2.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDD3qhQmdAjk8I1hwV1W1lIgOC_C6HpGbM"
+          "current_key": "AIzaSyA42TGg29YkiC-055F1YxFrJZVLcHBLkpw"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "566142913429-3tvmrrouj0uf6vha8h5soo8p0hh25qc9.apps.googleusercontent.com",
+              "client_id": "58825393003-3st8hf7ccunurmsjbi3k95v85u0i4ob2.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

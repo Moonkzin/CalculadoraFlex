@@ -1,4 +1,4 @@
-package br.com.lucasfiap.calculadoraflex
+package br.com.lucasg.calculadoraflex
 
 import org.junit.Test
 

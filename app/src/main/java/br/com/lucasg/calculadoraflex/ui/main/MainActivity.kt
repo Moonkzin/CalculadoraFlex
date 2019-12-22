@@ -1,7 +1,8 @@
-package br.com.lucasfiap.calculadoraflex
+package br.com.lucasg.calculadoraflex.ui.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import br.com.lucasg.calculadoraflex.R
 
 class MainActivity : AppCompatActivity() {
 
